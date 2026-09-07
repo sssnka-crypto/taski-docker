@@ -40,7 +40,6 @@ jobs:
     - name: Test with flake8 and django tests
       # Добавляем env-переменные для доступа к БД
       env:
-        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         POSTGRES_USER: django_user
         POSTGRES_PASSWORD: <PASSWORD>
         POSTGRES_DB: django_db
