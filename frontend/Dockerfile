@@ -1,4 +1,3 @@
-  GNU nano 8.7.1       frontend/Dockerfile
 FROM node:18
 WORKDIR /app
 
@@ -12,4 +11,4 @@ RUN npm run build
 
 # Эта команда запустит встроенный сервер на Node.js, котор>
 # содержимое директории /app/build на порте 8000
-CMD ["npx", "-y", "http-server", "-p", "8000", "/app/build>
+CMD ["npx", "-y", "http-server", "-p", "8000", "/app/build>"]
